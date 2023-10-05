@@ -230,7 +230,7 @@ footer .linha2 a:first-child {
     #principal {
         display: flex;
         flex-direction: column;
-        height: auto;
+        height: 250px;
     }
 
     #menu {
@@ -267,5 +267,14 @@ footer .linha2 a:first-child {
 
     .checkbox-itens label {
         font-size: 17px;
+    }
+
+    footer .linha1 {
+        flex-direction: column;
+    }
+
+    .endereco {
+        width: 95%;
+        margin-bottom: 20px;
     }
 }
